@@ -34,9 +34,14 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
 /* ------------------------ Special headings/margins/text */
 
-h1,h2.h3,h4 {
+h1,
+h2.h3,
+h4 {
     margin: 0;
 }
 
@@ -70,13 +75,13 @@ h1,h2.h3,h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-    color:black;
+    color: black;
 }
 
 /* ------------------------ Headings */
 
 header {
-    margin: 0;   
+    margin: 0;
 }
 
 .heading {
@@ -111,7 +116,9 @@ header {
     color: #fff;
 }
 
-.dl, ol, ul {
+.dl,
+ol,
+ul {
     margin-bottom: 0;
 }
 
@@ -303,7 +310,7 @@ footer {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo" sans-serif;
+    font-family: "Exo"sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -324,4 +331,37 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* ------------------------ Contact form */
+
+.contact-heading {
+    font-family: "Exo" sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* ------------------------ Media queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
