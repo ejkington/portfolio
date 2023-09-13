@@ -29,6 +29,7 @@
 .ui-menu-color-danger {
     background-color: rgb(197, 32, 32);
 }
+
 .ui-menu-color-contact {
     background-color: #3498db;
 }
@@ -44,6 +45,11 @@
 .bg-color-contact {
     background-color: #fff;
 }
+
+.bg-my-projects {
+    background-color: #e67e22;
+}
+
 /* ------------------------ Special headings/margins/text */
 
 h1,
@@ -52,7 +58,9 @@ h4 {
     margin: 0;
 }
 
-div#map {min-height: 360px;}
+div#map {
+    min-height: 360px;
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -182,6 +190,12 @@ ul {
     height: 120px;
 }
 
+/* ------------------------ Images */
+
+.project-img {
+    max-width: 100%;
+    height: 100%;
+}
 
 /* ------------------------ Footer */
 
@@ -345,7 +359,7 @@ footer {
 /* ------------------------ Contact form */
 
 .contact-heading {
-    font-family: "Exo" sans-serif;
+    font-family: "Exo"sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
