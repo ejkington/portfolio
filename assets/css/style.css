@@ -50,6 +50,14 @@
     background-color: #e67e22;
 }
 
+.bg-my-projects-2 {
+    background-color: #2270e6;
+}
+
+.underline {
+    border: 10px;
+}
+
 /* ------------------------ Special headings/margins/text */
 
 h1,
