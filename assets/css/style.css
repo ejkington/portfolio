@@ -386,6 +386,12 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+/* ------------------------ Display flex 0 */
+
+.hack-row {
+    display: inline;
+}
+
 /* ------------------------ Media queries */
 
 @media(min-width: 992px) {
